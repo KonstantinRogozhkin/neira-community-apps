@@ -1,13 +1,21 @@
 {
-  "version": "1.0",
+  "version": 1,
+  "comment": "Это главный реестр приложений для NEIRA Marketplace. Редактируйте его через Pull Request.",
   "apps": [
     {
       "id": "com.neira.librechat-ui",
       "name": "LibreChat UI",
       "author": "NEIRA Team",
-      "tags": ["chat", "ai", "tools", "official"],
-      "type": "free",
-      "manifestUrl": "https://raw.githubusercontent.com/KonstantinRogozhkin/neira-community-core/main/packages/apps/librechat-ui/neira-app.json"
+      "description": "Веб-интерфейс для LibreChat от NEIRA.",
+      "icon": "https://raw.githubusercontent.com/neira-team/neira-librechat-ui/main/icon.png",
+      "version": "1.0.0",
+      "pricing": {
+        "type": "free"
+      },
+      "source_repo": "https://github.com/KonstantinRogozhkin/neira-community-core",
+      "download_url": "https://github.com/neira-team/neira-librechat-ui/releases/download/v1.0.0/librechat-ui.npx",
+      "manifest_url": "https://raw.githubusercontent.com/KonstantinRogozhkin/neira-community-core/main/packages/apps/librechat-ui/neira-app.json",
+      "tags": ["chat", "ai", "tools", "official"]
     }
   ]
 }
