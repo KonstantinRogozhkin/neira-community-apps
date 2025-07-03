@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "apps": [
+    {
+      "id": "com.neira.librechat-ui",
+      "name": "LibreChat UI",
+      "author": "NEIRA Team",
+      "tags": ["chat", "ai", "tools", "official"],
+      "type": "free",
+      "manifestUrl": "https://raw.githubusercontent.com/KonstantinRogozhkin/neira-community-core/main/packages/apps/librechat-ui/neira-app.json"
+    }
+  ]
+}
