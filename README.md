@@ -13,8 +13,8 @@
   
   <!-- Badges -->
   <p>
-    <a href="https://github.com/KonstantinRogozhkin/neira-community-apps/actions"><img alt="Статус Проверки" src="https://img.shields.io/github/actions/workflow/status/KonstantinRogozhkin/neira-community-apps/validate-index.yml?branch=main&style=for-the-badge&logo=githubactions&label=CI"></a>
-    <a href="https://github.com/KonstantinRogozhkin/neira-community-apps/blob/main/LICENSE"><img alt="Лицензия" src="https://img.shields.io/badge/Лицензия-MIT-blue?style=for-the-badge"></a>
+    <a href="https://github.com/KonstantinRogozhkin/neira-apps/actions"><img alt="Статус Проверки" src="https://img.shields.io/github/actions/workflow/status/KonstantinRogozhkin/neira-apps/validate-index.yml?branch=main&style=for-the-badge&logo=githubactions&label=CI"></a>
+    <a href="https://github.com/KonstantinRogozhkin/neira-apps/blob/main/LICENSE"><img alt="Лицензия" src="https://img.shields.io/badge/Лицензия-MIT-blue?style=for-the-badge"></a>
     <a href="https://discord.gg/your-invite-link"><img alt="Обсуждение в Discord" src="https://img.shields.io/badge/Discord-Присоединиться-7289DA?style=for-the-badge&logo=discord"></a>
   </p>
 </div>
@@ -51,7 +51,7 @@
 
 ### Шаг 2: Отправьте Pull Request
 
-1.  **Сделайте форк** этого репозитория (`neira-community-apps`).
+1.  **Сделайте форк** этого репозитория (`neira-apps`).
 2.  **Добавьте ваше приложение в `index.json`**: В своем форке откройте файл [`index.json`](./index.json) и добавьте в массив `apps` объект, содержащий `id` вашего приложения и ссылку на **raw-версию** файла `neira-app.json` в вашем репозитории.
 
     ```json
@@ -121,7 +121,7 @@
 ## ❓ Нужна помощь?
 
 *   Если у вас есть вопросы по разработке, посетите наш [Discord-сервер для разработчиков](https://discord.gg/your-invite-link).
-*   Если вы столкнулись с проблемой при добавлении приложения в реестр, [создайте Issue](https://github.com/KonstantinRogozhkin/neira-community-apps/issues) в этом репозитории.
+*   Если вы столкнулись с проблемой при добавлении приложения в реестр, [создайте Issue](https://github.com/KonstantinRogozhkin/neira-apps/issues) в этом репозитории.
 
 Спасибо за ваш вклад в будущее NEIRA!
 

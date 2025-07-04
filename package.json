@@ -1,0 +1,13 @@
+{
+  "name": "neira-apps",
+  "version": "1.0.0",
+  "private": true,
+  "description": "The official application registry for the NEIRA Marketplace.",
+  "scripts": {
+    "validate:registry": "jsonlint -q index.json",
+    "test": "yarn validate:registry"
+  },
+  "devDependencies": {
+    "jsonlint": "^1.6.3"
+  }
+} 
